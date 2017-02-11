@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": ["es5", "dom"],
+    "outDir": "dist",
+    "sourceMap": true,
+    "declaration": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "pretty": true,
+    "strictNullChecks": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "files": [
+    "src/index.ts"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
