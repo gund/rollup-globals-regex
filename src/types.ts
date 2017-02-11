@@ -13,3 +13,8 @@ export interface GlobalsRegexConfig {
 export interface RollupGlobalsFn {
   (moduleId: string): string;
 }
+
+export interface GlobalTemplate {
+  TPL: string | GlobalsRegexNode;
+  toString(): string;
+}
