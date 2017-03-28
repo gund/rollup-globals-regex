@@ -30,12 +30,12 @@ export const GLOBAL: {[k: string]: GlobalTemplate} = {
     toString() {
       return 'Rx.Observable';
     },
-    TPL: /^rxjs\/add\/observable\/[^/]+$/
+    TPL: /^rxjs\/(add\/)?observable\/[^/]+$/
   },
   RX_OPERATOR: {
     toString() {
       return 'Rx.Observable.prototype';
     },
-    TPL: /^rxjs\/add\/operator\/[^/]+$/
+    TPL: /^rxjs\/(add\/)?operator\/[^/]+$/
   },
 };
